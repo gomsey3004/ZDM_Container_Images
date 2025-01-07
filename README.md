@@ -37,7 +37,7 @@ $ docker run \
 -h zdm \
 -dit \
 --restart always \
---name &lt;container name&gt; \
+--name <container name> \
 ZDMIMAGE:21.4
 ```
 Parameters:
