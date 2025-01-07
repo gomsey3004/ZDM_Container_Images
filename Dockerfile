@@ -5,8 +5,8 @@
 #   - Oracle ZDM
 # Example build and run.
 #
-# docker build -t zdm21.4:latest .
-# docker build --squash -t zdm21.4:latest .
+# docker build -t zdm21.4:latest --build-arg INSTALLER= V1037236-01.zip .
+# docker build --squash -t zdm21.4:latest --build-arg INSTALLER= V1037236-01.zip .
 #
 # Non-persistent storage.
 # docker run -dit --name zdm21.4_con -p 1521:1521 -p 5500:5500 --shm-size="1G" zdm21.4:latest
