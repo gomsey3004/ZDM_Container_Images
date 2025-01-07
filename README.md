@@ -51,13 +51,13 @@ Parameters:
 
 The status of ZDM can be monitored with this command:
 ```
-$ docker exec -it &lt;container_name&gt; /bin/sh -c "zdmservice status"
+$ docker exec -it <container_name> /bin/sh -c "zdmservice status"
 ```
 ## Running the ZDM Client:
 
 Login to the ZDM container and use the zdmcli tool to perform database migration
 ```
-$ docker exec -it &lt;container_name&gt; bash
+$ docker exec -it <container_name> bash
 ```
 Refer to the migration document:
 
