@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------------
 # Dockerfile to build Zero Downtime Migration Image
 # Based on the following:
-#   - Oracle Linux 8 - Slim
+#   - Oracle Linux 7
 #   - Oracle ZDM
 # Example build and run.
 #
@@ -28,7 +28,7 @@
 # ------------------------------------------------------------------------------
 
 
-# Set the base image to Oracle Linux 8 - Slim
+# Set the base image to Oracle Linux 7
 FROM oraclelinux:7
 
 # File Author / Maintainer
