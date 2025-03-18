@@ -63,4 +63,13 @@ Refer to the migration document:
 
 [Start a Migration Job](https://www.oracle.com/pls/topic/lookup?ctx=en/database/oracle/zero-downtime-migration/21.5&id=ZDMUG-GUID-C20DB7D4-E0CE-4B50-99D0-B16C18DDD34B)
 
+## Github repo for ZDM container (Sample)
+
+https://github.com/users/gomsey3004/packages/container/package/zdm
+
+You can also use the below image of ZDM 21.5 running on OEL8
+```
+$ docker pull ghcr.io/gomsey3004/zdm:21.5
+```
+
 
